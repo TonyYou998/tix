@@ -1,1 +1,421 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.header {
+  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  font-size: 0.9rem;
+  font-weight: 500;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.header .header__logo {
+  padding-left: 20px;
+}
+
+.header .header__logo img {
+  height: 50px;
+  width: 50px;
+  display: block;
+}
+
+.header .header__nav {
+  text-align: center;
+}
+
+.header .header__nav ul {
+  list-style: none;
+  padding-top: 15px;
+}
+
+.header .header__nav ul li a {
+  color: black;
+  transition: all ease 0.3s;
+  margin-right: 15px;
+}
+
+.header .header__nav ul li a:hover {
+  text-decoration: none;
+  color: #fb4226;
+}
+
+.header .header__login .nav .nav-item {
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.header .header__login .nav .nav-item a {
+  line-height: 50px;
+  color: #9b9b9b;
+  padding: 0;
+  display: inline;
+}
+
+.header .header__login .nav .nav-item img {
+  border-radius: 50%;
+  width: 30px;
+  color: #9b9b9b;
+  margin-right: 5px;
+}
+
+.header .header__login .nav .dropdown img {
+  width: 15px;
+}
+
+.header .header__login .nav .dropdown .dropdown-menu.show {
+  top: 10px !important;
+  left: -20px !important;
+}
+
+.header .header__login .nav .dropdown .dropdown-menu.show a {
+  display: block;
+}
+
+.header .header__login .nav .dropdown .dropdown-menu.show .dropdown-item {
+  padding-left: 10px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: transparent !important;
+}
+
+.carousel {
+  position: relative;
+  padding-top: 72.33px;
+}
+
+.carousel .item img {
+  display: block;
+  width: 100%;
+  height: 526.38px;
+}
+
+.carousel .item .carousel__overlay {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to top, #000, transparent 20%);
+}
+
+.carousel .item i {
+  color: transparent;
+  display: none;
+  transition: ease all 0.5s;
+}
+
+.carousel .item:hover i {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: white;
+}
+
+.carousel .item:hover i:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.owl-nav .owl-prev span {
+  position: absolute;
+  font-size: 7rem;
+  top: 45%;
+  transform: translateY(-50%);
+  left: 5%;
+  color: rgba(136, 136, 136, 0.8);
+}
+
+.owl-nav .owl-next span {
+  position: absolute;
+  font-size: 7rem;
+  transform: translateY(-50%);
+  top: 45%;
+  right: 5%;
+  color: rgba(136, 136, 136, 0.8);
+}
+
+.owl-nav {
+  height: 0;
+  margin-bottom: 0;
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.owl-dot:focus {
+  border-style: none;
+  outline: none;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: white;
+  margin: 6px;
+  width: 12px;
+  height: 12px;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #d6d6d6;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #fb4226;
+}
+
+.time-table {
+  background: url("https://tix.vn/app/assets/img/icons/back-news.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.time-table .time {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.time-table .time .nav-tabs {
+  display: flex !important;
+  flex-direction: column;
+  border: 1px solid #ebebec;
+}
+
+.time-table .time .nav-tabs .nav-item {
+  position: relative;
+}
+
+.time-table .time .nav-tabs .nav-item img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  opacity: 0.6;
+}
+
+.time-table .time .nav-tabs .nav-item .nav-link {
+  border: none;
+  padding: 20px;
+}
+
+.time-table .time .nav-tabs .nav-item .nav-link.active img {
+  opacity: 1;
+}
+
+.time-table .time .nav-tabs .nav-item a::after {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translateX(-50%);
+  content: "";
+  width: 50%;
+  display: block;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.88);
+}
+
+.time-table .time .tab-content .lichchieu {
+  display: flex;
+}
+
+.time-table .time .tab-content .lichchieu a {
+  color: black;
+}
+
+.time-table .time .tab-content .lichchieu a .lichchieu__diadiem__content {
+  display: flex;
+}
+
+.time-table .time .tab-content .lichchieu a .lichchieu__diadiem__content .lichchieu__diadiem {
+  margin-left: 10px;
+}
+
+.time-table .time .tab-content .lichchieu a .lichchieu__diadiem__content .lichchieu__diadiem h5 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.time-table .time .tab-content .lichchieu a .lichchieu__diadiem__content .lichchieu__diadiem h5 span {
+  color: #8bc541;
+}
+
+.time-table .time .tab-content .lichchieu a .lichchieu__diadiem__content .lichchieu__diadiem p {
+  color: #949494;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.time-table .time .tab-content .lichchieu a .lichchieu__diadiem__content .lichchieu__diadiem .chitiet {
+  color: #fb4226;
+  font-size: 0.9rem;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail {
+  padding-bottom: 25px;
+  position: relative;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail .lichchieu__detail__upper {
+  display: flex;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail .lichchieu__detail__upper img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail .lichchieu__detail__upper .lichchieu__detail__upper__text {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail .lichchieu__detail__upper .lichchieu__detail__upper__text h5 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail .lichchieu__detail__upper .lichchieu__detail__upper__text h5 span {
+  background-color: #00ac4d;
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail .lichchieu__detail__upper .lichchieu__detail__upper__text h5 .red {
+  background-color: #fb4226;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail .lichchieu__detail__upper .lichchieu__detail__upper__text p {
+  color: #9b9b9b;
+  font-size: 0.9rem;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail h3 {
+  font-size: 1.2rem;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail .lichchieu__detail__lower {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail .lichchieu__detail__lower p {
+  text-align: center;
+  color: #9b9b9b;
+  font-size: 1rem;
+  background-color: rgba(246, 246, 246, 0.5);
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  font-weight: 500;
+  width: 140px;
+  padding: 4px;
+  margin-right: 10px;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail .lichchieu__detail__lower p span {
+  color: #108f3e;
+  font-size: 1.2rem;
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__detail::after {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+  content: "";
+  width: 80%;
+  display: block;
+  height: 1px;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.88);
+}
+
+.time-table .time .tab-content .lichchieu .tab-content .lichchieu__content {
+  border: 1px solid #ebebec;
+  padding: 20px;
+}
+
+.app {
+  background-image: url("https://tix.vn/app/assets/img/icons/backapp.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 120px;
+}
+
+.app .app__text {
+  width: 80%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.app .app__text h5 {
+  font-size: 2rem;
+  line-height: 3.4rem;
+}
+
+.app .app__text p {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.app .app__text button {
+  display: block;
+  border: none;
+  outline: none;
+  background-color: #fb4226;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.app .app__text button a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.app .app__text span a {
+  color: white;
+  text-decoration: underline;
+}
+
+.app .app__mobile .mobile__case {
+  position: relative;
+}
+
+.app .app__mobile .mobile__case img {
+  display: block;
+  height: 450px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.app .app__mobile .mobile__case .mobile__iphone img {
+  height: 457px;
+}
+
+.app .app__mobile .mobile__case .mobile__slide {
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10%;
+  display: block;
+  width: 207.81px;
+  border-radius: 26px;
+  height: 450px;
+  overflow: hidden;
+}
+/*# sourceMappingURL=main.css.map */

@@ -739,4 +739,42 @@ footer .row .li__contents ul li {
   font-size: 12px;
   color: #8f9394;
 }
+
+footer .row .icon ul {
+  padding: 0;
+}
+
+footer .row .icon ul li img {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+}
+
+footer .row .partner .row img {
+  width: 30px;
+  height: 30px;
+  padding: 0 4px;
+}
+
+footer .hrFooter {
+  border-top: 1px solid #4a4a4a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer .zion__logo {
+  width: 80px;
+  height: 30px;
+}
+
+footer .info {
+  color: #8f9394;
+  font-size: 12px;
+}
+
+footer .iso img {
+  width: 130px;
+}
 /*# sourceMappingURL=main.css.map */

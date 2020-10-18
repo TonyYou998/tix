@@ -2,11 +2,6 @@
   font-family: "SF Medium";
 }
 
-.movie .movie__content {
-  width: 60%;
-  margin: 0 auto;
-}
-
 .movie .nav__center {
   justify-content: center;
   border: none;
@@ -199,9 +194,7 @@
 }
 
 .news .nav__center {
-  width: 70%;
   border: none;
-  margin: 0 auto;
   justify-content: center;
 }
 

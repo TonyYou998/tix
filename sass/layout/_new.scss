@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+.news {
+    margin: 100px 0;
+    .nav__center {
+        width: 70%;
+        border: none;
+        margin: 0 auto;
+        justify-content: center;
+
+        .nav-item {
+            border: none;
+
+            .nav-link {
+                line-height: 20px;
+                font-size: 20px;
+                color: black;
+                text-align: center;
+                margin: 0;
+                padding: 10px 15px;
+                &:hover {
+                    font-size: 24px;
+                    transition: all 0.4s;
+                    border-color: white;
+                }
+            }
+            .nav-link.active {
+                font-size: 24px;
+                border: none;
+                color: #fa5238;
+            }
+        }
+    }
+    .tab-content {
+        width: 60%;
+        margin: 0 auto;
+        // .new__main {
+            margin-top: 15px;
+            .card {
+                border: none;
+                // border-radius: 8px;
+
+                img {
+                    width: 100%;
+                    border-radius: 8px;
+                }
+                .card-body {
+                    .card__title {
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        color: black;
+                        font-weight: 400;
+                        &:hover {
+                            color: #fb4226;
+                            transition: all 0.4s;
+
+                        
+                        }
+                    }
+                    .card__detail {
+                        color: #4a4a4a;
+                    }
+                    i {
+                        font-size: 14px;
+                        color: grey;
+                        
+                        &:hover {
+                            font-size: 16px;
+                            transition: all 0.4s;
+                        }
+                    }
+                }
+            }
+        // }
+        .new__sub-left{
+            .card{
+                width: 100%;
+                // border-radius: 8px;
+                
+            }
+        }
+        .new__sub-right{
+            ul{
+                padding: 0;
+                li{
+                    list-style: none;
+                    img{
+                        border-radius: 4px;
+                        width: 50px;
+                        height: 50px;
+                    }
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

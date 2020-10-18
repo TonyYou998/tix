@@ -8,21 +8,2128 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./sass/main.scss">
+
+    <link rel="stylesheet" href="./css/main.css">
 
 </head>
 
 <body>
     <header></header>
+    <section class="home__tool">
+        <div class="selectMovie"></div>
+        <div class="selectCinema"></div>
+        <div class="slectDate"></div>
+        <div class="selectSession"></div>
+        <div class="buyTicket"></div>
+    </section>
     <section class="movie">
 
-        <div class="available">
+        <div class="movie__content">
+            <ul class="nav nav-tabs nav__center  " id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#available" role="tab"
+                        aria-controls="home" aria-selected="true">Đang Chiếu</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#comming-soon" role="tab"
+                        aria-controls="profile" aria-selected="false">Sắp Chiếu </a>
+                </li>
 
+            </ul>
+            <div class="tab-content mt-2" id="myTabContent">
+                <div class="tab-pane fade show active" id="available" role="tabpanel" aria-labelledby="home-tab">
+                    <div id="carouselExampleControls" class="carousel slide">
+                        <!-- data-ride="carousel" -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="col-12">
+                                    <div class="movie__up">
+                                        <div class="row">
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+                                    <div class="movie__down">
+                                        <div class="row">
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12">
+                                    <div class="movie__up">
+                                        <div class="row">
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+                                    <div class="movie__down">
+                                        <div class="row">
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12">
+                                    <div class="movie__up">
+                                        <div class="row">
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+                                    <div class="movie__down">
+                                        <div class="row">
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+                                                    <div class="movie__button">
+                                                        <p>Mua Vé</p>
+                                                    </div>
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="tab-pane fade" id="myTabContent" role="tabpanel" aria-labelledby="profile-tab">
+                    <div id="carouselExampleControls" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="col-12 ">
+                                    <div class="movie__up">
+                                        <div class="row">
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+                                    <div class="movie__down">
+                                        <div class="row">
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12 ">
+                                    <div class="movie__up">
+                                        <div class="row">
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+                                    <div class="movie__down">
+                                        <div class="row">
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12 ">
+                                    <div class="movie__up">
+                                        <div class="row">
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+                                    <div class="movie__down">
+                                        <div class="row">
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <div class="movie__item col-3">
+
+                                                <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                                    alt="">
+                                                <div class="movie__info none-hide">
+                                                    <div class="movie__name">
+                                                        <span>C18 </span>Ác Quỷ Đối Đầu - Deliver Us From Evil (C18)
+                                                        <p class="movie__time">100 phút</p>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="movie__rating">
+                                                    <span>
+                                                        <p class="movie__mark">8.9</p>
+                                                        <p class="movie__star">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+                                                            <img src="./img/star1.png" alt="">
+
+                                                            <img src="./img/star1.2.png" alt="">
+                                                        </p>
+                                                    </span>
+
+
+
+
+                                                </div>
+
+                                                <div class="movie__play">
+                                                    <i class="fa fa-play"></i>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+
+                </div>
+
+            </div>
         </div>
-        <div class="comming__soon"></div>
+
+
     </section>
-    <section class="time-table"></section>
-    <section class="news"></section>
+    <section class="time-table">
+
+    </section>
+    <section class="news">
+        <ul class="nav nav-tabs nav__center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                    aria-selected="true">Điện ảnh 24h</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                    aria-controls="profile" aria-selected="false">Review</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                    aria-controls="contact" aria-selected="false">Khuyến MÃi</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="new__main row">
+                    <div class="card col-6 pl-0 pr-2" style="width: 18rem;">
+                        <img src="./img/new1.png" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <p class=" card__title ">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="card__detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa
+                                architecto recusandae itaque, quos temporibus impedit ea pariatur reiciendis vel!</p>
+                            <div class="card__react">
+                                <i class="fa fa-thumbs-up mr-3"> 1k</i>
+
+                                <i class="fa fa-comment-alt mr-3"> 20k</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-6 pl-2 pr-0" style="width: 18rem;">
+                        <img src="./img/new2.png" class="card-img-top" alt="...">
+                        <div class="card-body px-0 ">
+                            <p class="card__title">Lorem, ipsum dolor sit amet consectetur.</p>
+                            <p class="card__detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Dignissimos similique, cumque saepe minima tempora consectetur.dsasdadasdasdasda</p>
+                            <div class="card__react">
+                                <i class="fa fa-thumbs-up mr-3"> 1k</i>
+
+                                <i class="fa fa-comment-alt mr-3"> 20k</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="new__sub row">
+                    <div class="new__Sub-left col-8 px-0 row">
+                        <div class="col-6 px-0">
+                            <div class="card pr-2" style="width: 100%;">
+                                <img src="./img/new__sub.png" class="card-img-top" alt="...">
+                                <div class="card-body p-0">
+                                    <p class="card__title">Some quick example text to build on the card .</p>
+                                    <p class="card__detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Repudiandae, quaerat?
+                                    </p>
+                                    <div class="card__react">
+                                        <i class="fa fa-thumbs-up mr-3"> 1k</i>
+
+                                        <i class="fa fa-comment-alt mr-3"> 20k</i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 px-0">
+                            <div class="card pl-2" style="width: 100%;">
+                                <img src="./img/new__sub2.png" class="card-img-top" alt="...">
+                                <div class="card-body p-0">
+                                    <p class="card__title">Some quick example text to build on the card .</p>
+                                    <p class="card__detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Repudiandae, quaerat?
+                                    </p>
+                                    <div class="card__react">
+                                        <i class="fa fa-thumbs-up mr-3"> 1k</i>
+
+                                        <i class="fa fa-comment-alt mr-3"> 20k</i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new__sub-right col-4">
+                        <div class="col-12">
+                            <ul>
+                                <li class="d-flex">
+                                    <img src="./img/6-da-o-die-n-ti-do-lam-nen-thanh-cong-cua-nhu-ng-bom-ta-n-di-nh-da-m-nha-t-hollywood-15966023547553.png"
+                                        alt="">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </li>
+                                <li class="d-flex">
+                                    <img src="./img/gai-gia-lam-chieu-v-nhung-cuoc-doi-vuong-gia-15965999321682.png"
+                                        alt="">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </li>
+                                <li class="d-flex">
+                                    <img src="./img/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png"
+                                        alt="">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </li>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">2</div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">3</div>
+
+                    </div>
+    </section>
     <section class="app"></section>
     <footer></footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

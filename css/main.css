@@ -638,7 +638,7 @@
   background-position: center;
   background-size: cover;
   color: white;
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .app .app__text {

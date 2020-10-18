@@ -1,25 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="./css/owl.carousel.min.css" />
-		<link rel="stylesheet" href="./css/owl.theme.default.min.css" />
-		<link rel="stylesheet" href="./css/main.css" />
-	</head>
 
-<<<<<<< HEAD
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +26,76 @@
 </head>
 
 <body>
-    <header></header>
+    <header class="header">
+        <div class="row">
+            <div class="col-3">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="./images/web-logo.png" alt="web-logo" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-6">
+                <nav class="header__nav">
+                    <ul>
+                        <li>
+                            <a href="#">Lịch Chiếu</a>
+                            <a href="#">Cụm rạp</a>
+                            <a href="#">Tin Tức</a>
+                            <a href="#">Ứng Dụng</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-3">
+                <div class="header__login">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item border-right">
+                            <img src="https://tix.vn/app/assets/img/avatar.png" alt="avatar" />
+                            <a class="nav-link" href="#">Đăng Nhập</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <img src="https://tix.vn/app/assets/img/icons/location-header.png" alt="location-header" />
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">Hồ Chí Minh</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Hà Nội</a>
+                                <a class="dropdown-item" href="#">Đà Nẵng</a>
+                                <a class="dropdown-item" href="#">Campuchia</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="carousel">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="carousel__overlay"></div>
+                <img src="https://s3img.vcdn.vn/123phim/2020/10/dong-gia-1k-ve-khi-mua-ve-qua-tix-16021321724224.jpg"
+                    alt="dong-gia-1k-ve-khi-mua-ve-qua-tix-16021321724224" />
+            </div>
+            <div class="item">
+                <div class="carousel__overlay"></div>
+                <img src="https://s3img.vcdn.vn/123phim/2020/10/tiec-trang-mau-blood-moon-party-16021267739246.png"
+                    alt="tiec-trang-mau-blood-moon-party-16021267739246" />
+                <a href="#"><i class="fa fa-play-circle"></i></a>
+            </div>
+            <div class="item">
+                <div class="carousel__overlay"></div>
+                <img src="https://s3img.vcdn.vn/123phim/2020/10/cuc-no-hoa-cuc-cung-pawn-p-16021265927768.png"
+                    alt="cuc-no-hoa-cuc-cung-pawn-p-16021265927768" />
+                <a href="#"><i class="fa fa-play-circle"></i></a>
+            </div>
+            <div class="item">
+                <div class="carousel__overlay"></div>
+                <img src="https://s3img.vcdn.vn/123phim/2020/10/gia-dinh-chan-to-phieu-luu-ky-bigfoot-family-p-16021269560594.png"
+                    alt="gia-dinh-chan-to-phieu-luu-ky-bigfoot-family-p-16021269560594" />
+                <a href="#"><i class="fa fa-play-circle"></i></a>
+            </div>
+        </div>
+    </div>
     <section class="home__tool">
         <div class="selectMovie"></div>
         <div class="selectCinema"></div>
@@ -2041,7 +2103,146 @@
 
     </section>
     <section class="time-table">
-
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="time">
+                        <ul class="nav nav-tabs" id="brandTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="bhd-tab" data-toggle="tab" href="#bhd" role="tab">
+                                    <img src="https://tix.vn/app/assets/img/icons/bhd.png" alt="bhd" /></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="star-tab" data-toggle="tab" href="#star" role="tab"><img
+                                        src="https://s3img.vcdn.vn/123phim/2018/09/1721cfa98768f300c03792e25ceb0191.png"
+                                        alt="star" /></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="dongda-tab" data-toggle="tab" href="#dongda" role="tab"><img
+                                        src="https://s3img.vcdn.vn/123phim/2018/09/9b240f96a233bb43203ee514a21a6004.png"
+                                        alt="dongdacinema" /></a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="brandTabContent">
+                            <div class="tab-pane fade show active" id="bhd" role="tabpanel">
+                                <div class="lichchieu">
+                                    <ul class="nav nav-tabs" id="bhd__cinemasTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link active" id="bhd__cinema1-tab" data-toggle="tab"
+                                                href="#bhd__cinema1" role="tab">
+                                                <div class="lichchieu__diadiem__content">
+                                                    <img src="https://s3img.vcdn.vn/123phim/2018/09/bhd-star-bitexco-15379552241200.jpg"
+                                                        alt="bhd-star-bitexco-15379552241200" />
+                                                    <div class="lichchieu__diadiem">
+                                                        <h5><span>BHD Star</span> - Bitexco</h5>
+                                                        <p>L3-Bitextco Icon 68,2 Hải Triều...</p>
+                                                        <span class="chitiet">[chi tiết]</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="bhd__cinema2-tab" data-toggle="tab"
+                                                href="#bhd__cinema2" role="tab">
+                                                <div class="lichchieu__diadiem__content">
+                                                    <img src="https://s3img.vcdn.vn/123phim/2018/09/bhd-star-vincom-thao-dien-15379553942188.jpg"
+                                                        alt="bhd-star-vincom-thao-dien-15379553942188" />
+                                                    <div class="lichchieu__diadiem">
+                                                        <h5><span>BHD Star</span> - Vincom Thảo Điền</h5>
+                                                        <p>L5-megamall, 159XL Hà Nội,Q...</p>
+                                                        <span class="chitiet">[chi tiết]</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="bhd__cinema3-tab" data-toggle="tab"
+                                                href="#bhd__cinema3" role="tab">
+                                                <div class="lichchieu__diadiem__content">
+                                                    <img src="https://s3img.vcdn.vn/123phim/2018/09/bhd-star-vincom-3-2-15379527367766.jpg"
+                                                        alt="bhd-star-vincom-3-2-15379527367766" />
+                                                    <div class="lichchieu__diadiem">
+                                                        <h5><span>BHD Star</span> - Vincom 3/2</h5>
+                                                        <p>L5-Vincom 3/2, 3C Đường 3/2, ...</p>
+                                                        <span class="chitiet">[chi tiết]</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="bhd__cinemasTabContent">
+                                        <div class="tab-pane fade show active" id="bhd__cinema1" role="tabpanel">
+                                            <div class="lichchieu__content">
+                                                <div class="lichchieu__detail">
+                                                    <div class="lichchieu__detail__upper">
+                                                        <img src="https://s3img.vcdn.vn/123phim/2017/06/coco-14967202410118.jpg"
+                                                            alt="coco-14967202410118" />
+                                                        <div class="lichchieu__detail__upper__text">
+                                                            <h5><span>P</span> CoCo</h5>
+                                                            <p>109 phút - TIX 9.4 - IMDB 8.7</p>
+                                                        </div>
+                                                    </div>
+                                                    <h3>2D Digital</h3>
+                                                    <div class="lichchieu__detail__lower">
+                                                        <p><span>14:00</span> ~ 15:49</p>
+                                                    </div>
+                                                </div>
+                                                <div class="lichchieu__detail">
+                                                    <div class="lichchieu__detail__upper">
+                                                        <img src="https://s3img.vcdn.vn/mobile/123phim/2020/09/rom-c18-15996245056088_60x60.png"
+                                                            alt="rom-c18-15996245056088_60x60" />
+                                                        <div class="lichchieu__detail__upper__text">
+                                                            <h5><span class="red">C18</span> Ròm</h5>
+                                                            <p>91 phút - TIX 7.9 - IMDB 0</p>
+                                                        </div>
+                                                    </div>
+                                                    <h3>2D Digital</h3>
+                                                    <div class="lichchieu__detail__lower">
+                                                        <p><span>11:10</span> ~ 12:41</p>
+                                                        <p><span>13:00</span> ~ 14:31</p>
+                                                        <p><span>15:40</span> ~ 17:11</p>
+                                                        <p><span>17:30</span> ~ 19:01</p>
+                                                        <p><span>19:01</span> ~ 20:41</p>
+                                                        <p><span>23:25</span> ~ 00:56</p>
+                                                    </div>
+                                                </div>
+                                                <div class="lichchieu__detail">
+                                                    <div class="lichchieu__detail__upper">
+                                                        <img src="https://s3img.vcdn.vn/mobile/123phim/2020/10/phi-vu-hoan-luong-honest-thief-c16-16018821184337_60x60.png"
+                                                            alt="phi-vu-hoan-luong-honest-thief-c16-16018821184337_60x60" />
+                                                        <div class="lichchieu__detail__upper__text">
+                                                            <h5>
+                                                                <span class="red">C16</span> Phi Vụ Hoàn Lương
+                                                                - Honest Thief
+                                                            </h5>
+                                                            <p>99 phút - TIX 7.4 - IMDB 0</p>
+                                                        </div>
+                                                    </div>
+                                                    <h3>2D Digital</h3>
+                                                    <div class="lichchieu__detail__lower">
+                                                        <p><span>13:40</span> ~ 15:19</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="bhd__cinema2" role="tabpanel">
+                                            bhd lich chieu 2
+                                        </div>
+                                        <div class="tab-pane fade" id="bhd__cinema3" role="tabpanel">
+                                            bhd lich chieu 3
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="star" role="tabpanel">star</div>
+                            <div class="tab-pane fade" id="dongda" role="tabpanel">
+                                dongdacinema
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="news">
         <ul class="nav nav-tabs nav__center" id="myTab" role="tablist">
@@ -2149,7 +2350,38 @@
 
                     </div>
     </section>
-    <section class="app"></section>
+    <section class="app">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="app__text">
+                        <h5>Ứng dụng tiện lợi dành cho người yêu điện ảnh</h5>
+                        <p>
+                            Không chỉ đặt vé, bạn còn có thể bình luận phim, chấm điểm rạp
+                            và đổi quà hấp dẫn.
+                        </p>
+                        <button><a href="#">App miễn phí - Tải về ngay!</a></button>
+                        <span>
+                            TIX có hai phiên bản <a href="#">iOS</a> &
+                            <a href="#">Android</a></span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="app__mobile">
+                        <div class="mobile__case">
+                            <div class="mobile__iphone">
+                                <img src="https://tix.vn/app/assets/img/icons/mobile.png" alt="mobile" />
+                            </div>
+
+                            <div class="mobile__slide">
+                                <img src="https://tix.vn/app/assets/img/icons/slide/slide1.jpg" alt="slide1" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer></footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -2160,386 +2392,47 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <!-- owl-carousel -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $(".owl-carousel").owlCarousel({
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true,
+            loop: true,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+            },
+        });
+    </script>
 </body>
 
 </html>
-=======
-	<body>
-		<header class="header">
-			<div class="row">
-				<div class="col-3">
-					<div class="header__logo">
-						<a href="#">
-							<img src="./images/web-logo.png" alt="web-logo" />
-						</a>
-					</div>
-				</div>
-				<div class="col-6">
-					<nav class="header__nav">
-						<ul>
-							<li>
-								<a href="#">Lịch Chiếu</a>
-								<a href="#">Cụm rạp</a>
-								<a href="#">Tin Tức</a>
-								<a href="#">Ứng Dụng</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-				<div class="col-3">
-					<div class="header__login">
-						<ul class="nav nav-pills">
-							<li class="nav-item border-right">
-								<img
-									src="https://tix.vn/app/assets/img/avatar.png"
-									alt="avatar"
-								/>
-								<a class="nav-link" href="#">Đăng Nhập</a>
-							</li>
-							<li class="nav-item dropdown">
-								<img
-									src="https://tix.vn/app/assets/img/icons/location-header.png"
-									alt="location-header"
-								/>
-								<a
-									class="nav-link dropdown-toggle"
-									data-toggle="dropdown"
-									href="#"
-									role="button"
-									aria-haspopup="true"
-									aria-expanded="false"
-									>Hồ Chí Minh</a
-								>
-								<div class="dropdown-menu">
-									<a class="dropdown-item" href="#">Hà Nội</a>
-									<a class="dropdown-item" href="#">Đà Nẵng</a>
-									<a class="dropdown-item" href="#">Campuchia</a>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</header>
-		<div class="carousel">
-			<div class="owl-carousel owl-theme">
-				<div class="item">
-					<div class="carousel__overlay"></div>
-					<img
-						src="https://s3img.vcdn.vn/123phim/2020/10/dong-gia-1k-ve-khi-mua-ve-qua-tix-16021321724224.jpg"
-						alt="dong-gia-1k-ve-khi-mua-ve-qua-tix-16021321724224"
-					/>
-				</div>
-				<div class="item">
-					<div class="carousel__overlay"></div>
-					<img
-						src="https://s3img.vcdn.vn/123phim/2020/10/tiec-trang-mau-blood-moon-party-16021267739246.png"
-						alt="tiec-trang-mau-blood-moon-party-16021267739246"
-					/>
-					<a href="#"><i class="fa fa-play-circle"></i></a>
-				</div>
-				<div class="item">
-					<div class="carousel__overlay"></div>
-					<img
-						src="https://s3img.vcdn.vn/123phim/2020/10/cuc-no-hoa-cuc-cung-pawn-p-16021265927768.png"
-						alt="cuc-no-hoa-cuc-cung-pawn-p-16021265927768"
-					/>
-					<a href="#"><i class="fa fa-play-circle"></i></a>
-				</div>
-				<div class="item">
-					<div class="carousel__overlay"></div>
-					<img
-						src="https://s3img.vcdn.vn/123phim/2020/10/gia-dinh-chan-to-phieu-luu-ky-bigfoot-family-p-16021269560594.png"
-						alt="gia-dinh-chan-to-phieu-luu-ky-bigfoot-family-p-16021269560594"
-					/>
-					<a href="#"><i class="fa fa-play-circle"></i></a>
-				</div>
-			</div>
-		</div>
-		<section class="movie">
-			<div class="available"></div>
-			<div class="comming__soon"></div>
-		</section>
-		<section class="time-table">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="time">
-							<ul class="nav nav-tabs" id="brandTab" role="tablist">
-								<li class="nav-item" role="presentation">
-									<a
-										class="nav-link active"
-										id="bhd-tab"
-										data-toggle="tab"
-										href="#bhd"
-										role="tab"
-									>
-										<img
-											src="https://tix.vn/app/assets/img/icons/bhd.png"
-											alt="bhd"
-									/></a>
-								</li>
-								<li class="nav-item" role="presentation">
-									<a
-										class="nav-link"
-										id="star-tab"
-										data-toggle="tab"
-										href="#star"
-										role="tab"
-										><img
-											src="https://s3img.vcdn.vn/123phim/2018/09/1721cfa98768f300c03792e25ceb0191.png"
-											alt="star"
-									/></a>
-								</li>
-								<li class="nav-item" role="presentation">
-									<a
-										class="nav-link"
-										id="dongda-tab"
-										data-toggle="tab"
-										href="#dongda"
-										role="tab"
-										><img
-											src="https://s3img.vcdn.vn/123phim/2018/09/9b240f96a233bb43203ee514a21a6004.png"
-											alt="dongdacinema"
-									/></a>
-								</li>
-							</ul>
-							<div class="tab-content" id="brandTabContent">
-								<div class="tab-pane fade show active" id="bhd" role="tabpanel">
-									<div class="lichchieu">
-										<ul
-											class="nav nav-tabs"
-											id="bhd__cinemasTab"
-											role="tablist"
-										>
-											<li class="nav-item" role="presentation">
-												<a
-													class="nav-link active"
-													id="bhd__cinema1-tab"
-													data-toggle="tab"
-													href="#bhd__cinema1"
-													role="tab"
-												>
-													<div class="lichchieu__diadiem__content">
-														<img
-															src="https://s3img.vcdn.vn/123phim/2018/09/bhd-star-bitexco-15379552241200.jpg"
-															alt="bhd-star-bitexco-15379552241200"
-														/>
-														<div class="lichchieu__diadiem">
-															<h5><span>BHD Star</span> - Bitexco</h5>
-															<p>L3-Bitextco Icon 68,2 Hải Triều...</p>
-															<span class="chitiet">[chi tiết]</span>
-														</div>
-													</div>
-												</a>
-											</li>
-											<li class="nav-item" role="presentation">
-												<a
-													class="nav-link"
-													id="bhd__cinema2-tab"
-													data-toggle="tab"
-													href="#bhd__cinema2"
-													role="tab"
-												>
-													<div class="lichchieu__diadiem__content">
-														<img
-															src="https://s3img.vcdn.vn/123phim/2018/09/bhd-star-vincom-thao-dien-15379553942188.jpg"
-															alt="bhd-star-vincom-thao-dien-15379553942188"
-														/>
-														<div class="lichchieu__diadiem">
-															<h5><span>BHD Star</span> - Vincom Thảo Điền</h5>
-															<p>L5-megamall, 159XL Hà Nội,Q...</p>
-															<span class="chitiet">[chi tiết]</span>
-														</div>
-													</div>
-												</a>
-											</li>
-											<li class="nav-item" role="presentation">
-												<a
-													class="nav-link"
-													id="bhd__cinema3-tab"
-													data-toggle="tab"
-													href="#bhd__cinema3"
-													role="tab"
-												>
-													<div class="lichchieu__diadiem__content">
-														<img
-															src="https://s3img.vcdn.vn/123phim/2018/09/bhd-star-vincom-3-2-15379527367766.jpg"
-															alt="bhd-star-vincom-3-2-15379527367766"
-														/>
-														<div class="lichchieu__diadiem">
-															<h5><span>BHD Star</span> - Vincom 3/2</h5>
-															<p>L5-Vincom 3/2, 3C Đường 3/2, ...</p>
-															<span class="chitiet">[chi tiết]</span>
-														</div>
-													</div>
-												</a>
-											</li>
-										</ul>
-										<div class="tab-content" id="bhd__cinemasTabContent">
-											<div
-												class="tab-pane fade show active"
-												id="bhd__cinema1"
-												role="tabpanel"
-											>
-												<div class="lichchieu__content">
-													<div class="lichchieu__detail">
-														<div class="lichchieu__detail__upper">
-															<img
-																src="https://s3img.vcdn.vn/123phim/2017/06/coco-14967202410118.jpg"
-																alt="coco-14967202410118"
-															/>
-															<div class="lichchieu__detail__upper__text">
-																<h5><span>P</span> CoCo</h5>
-																<p>109 phút - TIX 9.4 - IMDB 8.7</p>
-															</div>
-														</div>
-														<h3>2D Digital</h3>
-														<div class="lichchieu__detail__lower">
-															<p><span>14:00</span> ~ 15:49</p>
-														</div>
-													</div>
-													<div class="lichchieu__detail">
-														<div class="lichchieu__detail__upper">
-															<img
-																src="https://s3img.vcdn.vn/mobile/123phim/2020/09/rom-c18-15996245056088_60x60.png"
-																alt="rom-c18-15996245056088_60x60"
-															/>
-															<div class="lichchieu__detail__upper__text">
-																<h5><span class="red">C18</span> Ròm</h5>
-																<p>91 phút - TIX 7.9 - IMDB 0</p>
-															</div>
-														</div>
-														<h3>2D Digital</h3>
-														<div class="lichchieu__detail__lower">
-															<p><span>11:10</span> ~ 12:41</p>
-															<p><span>13:00</span> ~ 14:31</p>
-															<p><span>15:40</span> ~ 17:11</p>
-															<p><span>17:30</span> ~ 19:01</p>
-															<p><span>19:01</span> ~ 20:41</p>
-															<p><span>23:25</span> ~ 00:56</p>
-														</div>
-													</div>
-													<div class="lichchieu__detail">
-														<div class="lichchieu__detail__upper">
-															<img
-																src="https://s3img.vcdn.vn/mobile/123phim/2020/10/phi-vu-hoan-luong-honest-thief-c16-16018821184337_60x60.png"
-																alt="phi-vu-hoan-luong-honest-thief-c16-16018821184337_60x60"
-															/>
-															<div class="lichchieu__detail__upper__text">
-																<h5>
-																	<span class="red">C16</span> Phi Vụ Hoàn Lương
-																	- Honest Thief
-																</h5>
-																<p>99 phút - TIX 7.4 - IMDB 0</p>
-															</div>
-														</div>
-														<h3>2D Digital</h3>
-														<div class="lichchieu__detail__lower">
-															<p><span>13:40</span> ~ 15:19</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div
-												class="tab-pane fade"
-												id="bhd__cinema2"
-												role="tabpanel"
-											>
-												bhd lich chieu 2
-											</div>
-											<div
-												class="tab-pane fade"
-												id="bhd__cinema3"
-												role="tabpanel"
-											>
-												bhd lich chieu 3
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="tab-pane fade" id="star" role="tabpanel">star</div>
-								<div class="tab-pane fade" id="dongda" role="tabpanel">
-									dongdacinema
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="news"></section>
-		<section class="app">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-sm-12">
-						<div class="app__text">
-							<h5>Ứng dụng tiện lợi dành cho người yêu điện ảnh</h5>
-							<p>
-								Không chỉ đặt vé, bạn còn có thể bình luận phim, chấm điểm rạp
-								và đổi quà hấp dẫn.
-							</p>
-							<button><a href="#">App miễn phí - Tải về ngay!</a></button>
-							<span>
-								TIX có hai phiên bản <a href="#">iOS</a> &
-								<a href="#">Android</a></span
-							>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-12">
-						<div class="app__mobile">
-							<div class="mobile__case">
-								<div class="mobile__iphone">
-									<img
-										src="https://tix.vn/app/assets/img/icons/mobile.png"
-										alt="mobile"
-									/>
-								</div>
 
-								<div class="mobile__slide">
-									<img
-										src="https://tix.vn/app/assets/img/icons/slide/slide1.jpg"
-										alt="slide1"
-									/>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<footer></footer>
-		<script
-			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-			crossorigin="anonymous"
-		></script>
-		<!-- owl-carousel -->
-		<script src="./js/owl.carousel.min.js"></script>
-		<script>
-			$(".owl-carousel").owlCarousel({
-				autoplay: true,
-				autoplayTimeout: 4000,
-				autoplayHoverPause: true,
-				loop: true,
-				nav: true,
-				responsive: {
-					0: {
-						items: 1,
-					},
-				},
-			});
-		</script>
-	</body>
-</html>
->>>>>>> e7cf03d7538793805f0f5b7d85a397218183e7e6
+<!-- <body>
+
+
+    <section class="movie">
+        <div class="available"></div>
+        <div class="comming__soon"></div>
+    </section>
+
+    <section class="news"></section>
+
+    <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html> -->
